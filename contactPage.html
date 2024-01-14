@@ -15,25 +15,28 @@
     <nav class="navbar">
         <p>Weather <i class="fa-solid fa-umbrella-beach"></i></p>
         <ul class="navList">
-            <li class="navListItem"><a href="index.html">Hava Durumu</a></li>
-            <li class="navListItem"><a href="ratePage.html">Değerlendir</a></li>
+            <li class="navListItem"><a href="index.html">Ana Sayfa</a></li>
             <li class="navListItem"><a href="galleryPage.html">Galeri</a></li>
+            <li class="navListItem"><a href="contactPage.html">İletişim</a></li>
 
         </ul>
     </nav>
     <main>
         <div class="cardContainer">
             <div class="card">
-                <p class="cardHeader">Değerlendirme</p>
-                <select name="rate" id="rate">
-                    <option value="five">5</option>
-                    <option value="five">4</option>
-                    <option value="five">3</option>
-                    <option value="five">2</option>
-                    <option value="five">1</option>
-                </select>
-                <textarea id="rateText" cols="30" rows="10">Düşüncelerinizi yazınız.</textarea>
-                <button id="rateButton">Gönder</button>
+                <p class="cardHeader">İletişim Formu</p>
+                <form action="" class="contactForm">
+                    <label for="fName">Ad</label>
+                    <input type="text" placeholder="Adınızı Girin" id="fName">
+                    <br>
+                    <label for="lName">Soyad</label>
+                    <input type="text" placeholder="Soyadınızı Girin" id="lName">
+                    <br>
+                    <label for="eMail">E-Mail</label>
+                    <input type="email" placeholder="E-Mail Girin"id="eMail">
+                    <br>
+                    <button class="formButton">Gönder</button>
+                </form>
             </div>
         </div>
     </main>
