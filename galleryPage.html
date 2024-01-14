@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hava Durumu</title>
+    <link rel="icon" type="image/x-icon" href="/images/cloudy.png">
+    <link rel="stylesheet" href="/css/galStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&family=Rethink+Sans&family=Roboto&family=Teko&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .containerGal{
+            display: flex;
+            justify-content: space-between;
+        }
+        .buttonGal{
+            margin-top: 300px;
+            color: aqua;
+            font-size: 50px;
+            padding-left: 50px;
+            padding-right: 50px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- <nav class="navbar">
+        <p>Weather <i class="fa-solid fa-umbrella-beach"></i></p>
+        <ul class="navList">
+            <li class="navListItem"><a href="">Hava Durumu</a></li>
+            <li class="navListItem"><a href="ratePage.html">Değerlendir</a></li>
+        </ul>
+    </nav> -->
+    <main>
+        <img src="https://picsum.photos/id/15/1400/500" alt="" class="slide">
+        <img src="https://picsum.photos/id/29/1400/500" alt="" class="slide">
+        <img src="https://picsum.photos/id/43/1400/500" alt="" class="slide">
+        <img src="https://picsum.photos/id/49/1400/500" alt="" class="slide">
+        <img src="https://picsum.photos/id/57/1400/500" alt="" class="slide">
+    
+    </main>
+    <div class="nav">
+        <button onclick="goPrev()">
+            Prev
+        </button>
+        <button onclick="goNext()">
+            Next
+        </button>
+    </div>
+    <script src="slide.js"></script>
+</body>
+</html>
